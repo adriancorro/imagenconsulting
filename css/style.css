@@ -34,14 +34,14 @@ nav li:hover{
 }
 
 h1 {
-    color: white;
+    color: rgb(10, 10, 10);
     font-weight: 100;
     height: 1.5rem;
     font-size: 3rem;
  }
 
  h4{
-     color: darkgray;
+     color: rgb(117, 117, 117);
      font-weight: 100;
      padding-bottom: 2rem;
      font-size: 1.5rem;
@@ -141,7 +141,7 @@ align-self: end; Esto permite que se anule la alineación predeterminada
             padding-bottom:15px;
             padding-left:40px;
             padding-right:40px;
-            background-color: coral;
+            background-color: rgb(27, 27, 27);
             border-radius:12px;
 
     }
