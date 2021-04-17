@@ -80,7 +80,7 @@ Un área del documento que contiene un flexbox es llamada contendedor flex.
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: baseline;
-    margin-left: 4em;
+   /*  margin-left: 4em; */
     margin-right: 4em;
     
 }
@@ -222,6 +222,11 @@ align-self: end; Esto permite que se anule la alineación predeterminada
             padding-top: unset;
             padding-bottom: 16rem;
             font-weight:400;
+        }
+
+        div .trigger img {
+            padding-bottom: 1.5rem;
+            padding-top: 1.5rem;
         }
 
         .headprincipal{
