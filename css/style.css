@@ -219,13 +219,13 @@ align-self: end; Esto permite que se anule la alineación predeterminada
         }
 
         h4 {
-            padding-top: unset;
+            padding-top: unset; 
             padding-bottom: 16rem;
             font-weight:400;
         }
 
         div .trigger img {
-            padding-bottom: 1.5rem;
+            padding-bottom: 0.9rem;
             padding-top: 1.5rem;
         }
 
