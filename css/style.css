@@ -7,6 +7,10 @@ body {
     background: ivory;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navprincipal {
     padding-top: 1.3rem;
 }
@@ -25,7 +29,6 @@ nav a{
 nav li{
     display:inline;
     padding:5px 10px;
-    background-color:rgb(255, 255, 255);
     text-align:center;
     color:rgb(121 121 121 / 78%);
 }
@@ -118,6 +121,37 @@ align-self: end; Esto permite que se anule la alineación predeterminada
         align-content: stretch;
     }
 
+    .twocolumns{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: stretch;
+        align-content: stretch;
+        border-top: #d8d8d85c 0.1rem solid;
+        padding-top: 6rem;
+    }
+
+    .twocolumnsFirstColumn{
+        padding-right: 5rem;
+        padding-left: 8rem;
+    }
+
+    .twoColumn{
+        text-align: justify;
+        font-weight: 300;
+        padding-right: 5rem;
+        letter-spacing: 0.3px;
+        padding-top: 3rem;
+    }
+
+    .hcolumn{
+        margin-top: 0px;
+        font-size: 2rem;
+        font-weight: 400;
+        
+    }
+
     .contenido{
         background: url(../img/first-background.jpg);
         width: 100%; 
@@ -143,12 +177,12 @@ align-self: end; Esto permite que se anule la alineación predeterminada
             text-decoration:none;
             font-weight: 300;
             font-size: 1rem;
-            color: white;
+            color: #000000bd;
             padding-top:15px;
             padding-bottom:15px;
             padding-left:40px;
             padding-right:40px;
-            background-color: rgb(27, 27, 27);
+            background-color:#ffdcae9e;
             border-radius:12px;
 
     }
@@ -159,6 +193,7 @@ align-self: end; Esto permite que se anule la alineación predeterminada
         justify-content: center;
         align-items: baseline;
         align-content: stretch;
+        border-bottom: #d8d8d85c 0.1rem solid;
 
     }
 
@@ -167,8 +202,6 @@ align-self: end; Esto permite que se anule la alineación predeterminada
        font-size: 1.7em;
        padding: 3rem 2rem 3.5rem 2rem;
        text-align: center;
-       border-bottom: #d8d8d85c 0.1rem solid;
-
     }
 
     .row4{
@@ -177,6 +210,8 @@ align-self: end; Esto permite que se anule la alineación predeterminada
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;
+    padding-bottom: 4rem;
+    padding-top: 1rem;
     }
 
     .rowcontenido{
@@ -235,6 +270,20 @@ align-self: end; Esto permite que se anule la alineación predeterminada
             font-weight:400;
         }
 
+        .mainprincipal img{
+            width: 100%;
+        }
+
+        .hcolumn{
+            text-align: center
+        }
+
+        .twoColumn{
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            font-size: 1rem;
+        }
+
         div .trigger img {
             padding-bottom: 0.4rem;
             padding-top: 1.5rem;
@@ -242,9 +291,14 @@ align-self: end; Esto permite que se anule la alineación predeterminada
 
         .headprincipal{
             margin-bottom: 0.8em;
+        }  
+
+        .twocolumnsFirstColumn{
+            padding-right: 0.3rem;
+            padding-left: 0.3rem;
         }
 
-        .sectioncontenido {
+        .sectioncontenido  {
             display: flex;
             flex-direction: column;
              padding: 0% ;
@@ -252,7 +306,7 @@ align-self: end; Esto permite que se anule la alineación predeterminada
              align-items: center;
         }  
 
-        .row4 {
+        .row4 , .twocolumns{
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
