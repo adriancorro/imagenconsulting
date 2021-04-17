@@ -4,7 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
-    background: #a75d1ca3;
+    background: #fffff0e0;
 }
 
 .navprincipal {
@@ -165,8 +165,9 @@ align-self: end; Esto permite que se anule la alineación predeterminada
     .sectiontitulos p{
        color: rgb(77, 77, 77);
        font-size: 1.7em;
-       padding: 3rem 2rem 0px 2rem;
+       padding: 3rem 2rem 3.5rem 2rem;
        text-align: center;
+       border-bottom: #d8d8d85c 0.1rem solid;
 
     }
 
