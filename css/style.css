@@ -6,8 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+.navprincipal {
+    padding-top: 1.3rem;
+}
+
 ul {
     flex-direction: row;
+    margin-top: 0.6rem
 }
 
 nav a{
@@ -96,7 +101,8 @@ align-self: end; Esto permite que se anule la alineación predeterminada
 
 
     .imagenprincipal{
-        padding-top: 10px;
+        padding-top: 1.2rem;
+        padding-left: 0.5rem;
     }
 
     /* codigo ayuda con https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
@@ -217,15 +223,18 @@ align-self: end; Esto permite que se anule la alineación predeterminada
             display: flex;
             flex-direction: column;
         }
+        h1{
+            font-size: 2rem
+        }
 
         h4 {
             padding-top: unset; 
-            padding-bottom: 16rem;
+            padding-bottom: 11rem;
             font-weight:400;
         }
 
         div .trigger img {
-            padding-bottom: 0.9rem;
+            padding-bottom: 0.4rem;
             padding-top: 1.5rem;
         }
 
