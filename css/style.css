@@ -256,7 +256,31 @@ align-self: end; Esto permite que se anule la alineación predeterminada
         }  
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 1150px) {
+        .sectioncontenido {
+            
+            padding-top: 1rem;
+            padding-right: 2rem;
+             
+        }  
+
+        .twocolumnsFirstColumn {
+            padding-right: 2rem;
+            padding-left: 1rem;
+        }
+        
+        .twoColumn   {
+        
+            padding-right: 2rem;
+            padding-top: 2rem;
+        }
+
+        
+
+        
+    }
+
+    @media screen and (max-width: 960px) {
         ul {
             display: flex;
             flex-direction: column;
